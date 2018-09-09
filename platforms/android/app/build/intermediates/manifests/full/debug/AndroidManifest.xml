@@ -74,6 +74,14 @@
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.instapp.nat.media.image.multi_image_selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/SelectorTheme" />
+        <activity
+            android:name="com.instapp.nat.media.image.ImagePreviewActivity"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name="com.instapp.nat.media.video.VideoActivity" />
 
         <receiver
             android:name="com.taobao.weex.WXGlobalEventReceiver"

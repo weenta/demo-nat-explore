@@ -21,6 +21,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/weex-plugin-media-audio/1.0.0-alpha/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2fd82bddcf129c4c7bd2737d2081219864b1f6ab">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-media-audio-1.0.0-alpha_22574e4b4113027af289d77651a0af149d89cd9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/permission/2.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,6 +138,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-video/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="dac2bb0eeb3f42097609fb7385c33650dc96b0e6">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-media-video-2.0.0_7e8cf5c79be4e3109ee05605243ad92cffc48058.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/weenta/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
@@ -174,6 +192,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-audio/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7d5ab863a5639c8b3f7e580a604ce3615521eba0">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-media-audio-2.0.0_1a7b96e602ff47a68cc22c89443e7100a52fc283.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/weenta/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
         jumboMode="false"
         optimize="true"
@@ -198,6 +225,24 @@
         revision="26.0.0"
         sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
         <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_b6a125397b269c68683c382f6b0c3f1fecafbe97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/weex-plugin-media-video/1.0.0-alpha/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2c70e04379f396291ddf5e03ead2ac0a058419f8">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-media-video-1.0.0-alpha_5ff80454139f5edbaf6c55c39c5ba4a4ee4748e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_411c13a6d28ce3a6de1402dcbbbf36ef7d4b9701.jar" />
     </item>
     <item
         is-multidex="false"
@@ -288,6 +333,24 @@
         revision="26.0.0"
         sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
         <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_54e4cbf4a34a0bbb14a590effcad266af3c68156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/weex-plugin-media-image/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="00713cc6f37a667a8387df45d34d66790c319d6d">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-media-image-1.0.1_99b7f7dda406a5c61f1ee79cebcb377049fa8696.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="420c9bcbdc099515136fd8150d4391c5843e6401">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-media-image-2.0.1_dbaf52a8ec471cae9846d4eb7bd41bc5bbc1e365.jar" />
     </item>
     <item
         is-multidex="false"

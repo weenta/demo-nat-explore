@@ -1,12 +1,36 @@
 PODS:
+  - DACircularProgress (2.3.1)
+  - MBProgressHUD (1.0.0)
+  - NatAudio (0.0.3)
   - NatCommunication (0.0.2)
+  - NatImage (0.0.8):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 1.0.0)
+    - SDWebImage (~> 3.7.5)
+    - TZImagePickerController (~> 2.1.6)
   - NatModal (0.0.1)
+  - NatVideo (0.0.3):
+    - Reachability (~> 3.2)
+  - Reachability (3.2)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - SocketRocket (0.4.2)
+  - TZImagePickerController (2.1.9)
   - WeexNatCommunication (1.0.0):
     - NatCommunication
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatMediaAudio (1.0.0):
+    - NatAudio
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatMediaImage (1.0.1):
+    - NatImage
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatMediaVideo (1.0.0):
+    - NatVideo
     - WeexPluginLoader
     - WeexSDK
   - WeexNatModal (1.0.1):
@@ -21,31 +45,54 @@ DEPENDENCIES:
   - SDWebImage (= 3.7.5)
   - SocketRocket (= 0.4.2)
   - WeexNatCommunication (= 1.0.0)
+  - WeexNatMediaAudio (= 1.0.0)
+  - WeexNatMediaImage (= 1.0.1)
+  - WeexNatMediaVideo (= 1.0.0)
   - WeexNatModal (= 1.0.1)
   - WeexPluginLoader
   - WeexSDK
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - DACircularProgress
+    - MBProgressHUD
+    - NatAudio
     - NatCommunication
+    - NatImage
     - NatModal
+    - NatVideo
+    - Reachability
     - SDWebImage
     - SocketRocket
+    - TZImagePickerController
     - WeexNatCommunication
+    - WeexNatMediaAudio
+    - WeexNatMediaImage
+    - WeexNatMediaVideo
     - WeexNatModal
     - WeexPluginLoader
     - WeexSDK
 
 SPEC CHECKSUMS:
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  NatAudio: b674c999c5f19b6079e1c29dcb77e3aadbd5907a
   NatCommunication: 0f817c81d9443a7db5dd08e6dbcab6262b4e1e35
+  NatImage: d2d8679f1a65c20aed41648bf2b4e8f141f2f58d
   NatModal: d084214ec79cb4992814c08bbc64ee4097ea4ea3
+  NatVideo: b237ef24322bbdbb73a4f244f476f39618cf5876
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  TZImagePickerController: 6c9721783063edafc9ad42cd95acc82f1b648485
   WeexNatCommunication: c311619645926ba22a88261138f0513d08291729
+  WeexNatMediaAudio: afefb553c0bfbe6f2cecb97d259a279f000f3c0b
+  WeexNatMediaImage: 7440478660085e8d126f117b53de6297d05688fc
+  WeexNatMediaVideo: 1569450ac13451424f397434bdd6cfd0b071ee1c
   WeexNatModal: a7aaa8cefd0fdad745ea62b52bc8108a1ee68529
   WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: 173541f2d0042664168b305952398145c0c6039c
 
-PODFILE CHECKSUM: 3c54f872ca2b7110d5d451acb0ba4945518938e4
+PODFILE CHECKSUM: 0dd5cf687b7fded112fcf96a8fb75f5db6f83998
 
 COCOAPODS: 1.5.3

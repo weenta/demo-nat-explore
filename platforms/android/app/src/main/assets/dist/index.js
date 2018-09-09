@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 18);
+/******/ 	return __webpack_require__(__webpack_require__.s = 45);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -112,21 +112,186 @@ var env = {
 exports.default = env;
 
 /***/ }),
-/* 1 */
+/* 1 */,
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(2)
+__vue_styles__.push(__webpack_require__(3)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(3)
+__vue_exports__ = __webpack_require__(4)
 
 /* template */
-var __vue_template__ = __webpack_require__(4)
+var __vue_template__ = __webpack_require__(5)
+__vue_options__ = __vue_exports__ = __vue_exports__ || {}
+if (
+  typeof __vue_exports__.default === "object" ||
+  typeof __vue_exports__.default === "function"
+) {
+if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
+__vue_options__ = __vue_exports__ = __vue_exports__.default
+}
+if (typeof __vue_options__ === "function") {
+  __vue_options__ = __vue_options__.options
+}
+__vue_options__.__file = "/Users/weenta/01data/03weex/demo_nat_explorer2/src/layout/statusBar.vue"
+__vue_options__.render = __vue_template__.render
+__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+__vue_options__._scopeId = "data-v-70aab816"
+__vue_options__.style = __vue_options__.style || {}
+__vue_styles__.forEach(function (module) {
+  for (var name in module) {
+    __vue_options__.style[name] = module[name]
+  }
+})
+if (typeof __register_static_styles__ === "function") {
+  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
+}
+
+module.exports = __vue_exports__
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "bar": {
+    "width": "750",
+    "height": "40",
+    "backgroundColor": "#ffffff"
+  },
+  "bar-x": {
+    "width": "750",
+    "height": "40",
+    "backgroundColor": "#ffffff"
+  }
+}
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _env = __webpack_require__(0);
+
+var _env2 = _interopRequireDefault(_env);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+  name: 'StatusBar',
+  props: {
+    backgroundColor: {
+      type: String,
+      default: '#fff'
+    },
+    show: {
+      type: Boolean,
+      default: true
+    }
+  },
+  data: function data() {
+    return {
+      platform: _env2.default.platform,
+      style: {
+        backgroundColor: this.backgroundColor
+      }
+    };
+  },
+
+  computed: {
+    isX: function isX() {
+      return _env2.default.platform === 'ios' && _env2.default.deviceWidth === 1125 && _env2.default.deviceHeight === 2436;
+    }
+  }
+
+}; //
+//
+//
+//
+//
+//
+//
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return (_vm.show && _vm.platform === "ios") ? _c('div', {
+    staticClass: ["status-bar"]
+  }, [(_vm.isX) ? _c('div', {
+    staticClass: ["bar-x"],
+    style: _vm.style
+  }) : _vm._e(), _c('div', {
+    staticClass: ["bar"],
+    style: _vm.style
+  })]) : _vm._e()
+},staticRenderFns: []}
+module.exports.render._withStripped = true
+
+/***/ }),
+/* 6 */,
+/* 7 */,
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */,
+/* 18 */,
+/* 19 */,
+/* 20 */,
+/* 21 */,
+/* 22 */,
+/* 23 */,
+/* 24 */,
+/* 25 */,
+/* 26 */,
+/* 27 */,
+/* 28 */,
+/* 29 */,
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __vue_exports__, __vue_options__
+var __vue_styles__ = []
+
+/* styles */
+__vue_styles__.push(__webpack_require__(41)
+)
+
+/* script */
+__vue_exports__ = __webpack_require__(42)
+
+/* template */
+var __vue_template__ = __webpack_require__(43)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -156,7 +321,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 2 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -197,7 +362,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 3 */
+/* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -253,7 +418,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 4 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -283,26 +448,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ }),
-/* 5 */,
-/* 6 */,
-/* 7 */,
-/* 8 */,
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */
+/* 44 */,
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _index = __webpack_require__(19);
+var _index = __webpack_require__(46);
 
 var _index2 = _interopRequireDefault(_index);
 
@@ -312,21 +465,21 @@ _index2.default.el = '#root';
 new Vue(_index2.default);
 
 /***/ }),
-/* 19 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(20)
+__vue_styles__.push(__webpack_require__(47)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(21)
+__vue_exports__ = __webpack_require__(48)
 
 /* template */
-var __vue_template__ = __webpack_require__(23)
+var __vue_template__ = __webpack_require__(50)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -356,7 +509,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 20 */
+/* 47 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -394,7 +547,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 21 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -408,20 +561,44 @@ var _env = __webpack_require__(0);
 
 var _env2 = _interopRequireDefault(_env);
 
-var _modules = __webpack_require__(22);
+var _modules = __webpack_require__(49);
 
 var _modules2 = _interopRequireDefault(_modules);
 
-var _Module = __webpack_require__(1);
+var _Module = __webpack_require__(40);
 
 var _Module2 = _interopRequireDefault(_Module);
 
+var _statusBar = __webpack_require__(2);
+
+var _statusBar2 = _interopRequireDefault(_statusBar);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 exports.default = {
   name: 'App',
   components: {
-    Module: _Module2.default
+    Module: _Module2.default,
+    stutusBar: _statusBar2.default
   },
   data: function data() {
     return {
@@ -430,26 +607,10 @@ exports.default = {
     };
   },
   created: function created() {}
-}; //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+};
 
 /***/ }),
-/* 22 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -470,18 +631,34 @@ var modules = [{
     name: 'Sms',
     path: 'views/communication/sms.js'
   }]
+}, {
+  name: 'Media',
+  functions: [{
+    name: 'Image',
+    path: 'views/media/image.js'
+  }, {
+    name: 'Audio',
+    path: 'views/media/audio.js'
+  }, {
+    name: 'Video',
+    path: 'views/media/video.js'
+  }]
 }];
 
 exports.default = modules;
 
 /***/ }),
-/* 23 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["wrapper"]
-  }, [_c('list', {
+  }, [_c('status-bar', {
+    attrs: {
+      "show": false
+    }
+  }), _c('list', {
     staticClass: ["list"]
   }, [_c('cell', {
     appendAsTree: true,
@@ -506,7 +683,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
         "functions": item.functions
       }
     })], 1)
-  })], 2)])
+  })], 2)], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["app-name"]

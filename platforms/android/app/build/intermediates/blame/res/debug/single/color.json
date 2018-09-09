@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/color/mis_default_text_color.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/color/mis_default_text_color.xml"
+    },
+    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/color/design_error.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/res/color/design_error.xml"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/color/mis_folder_text_color.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/color/mis_folder_text_color.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",

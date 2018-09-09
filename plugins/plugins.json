@@ -9,6 +9,21 @@
       "type": "pod",
       "name": "WeexNatModal",
       "version": "1.0.1"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatMediaImage",
+      "version": "1.0.1"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatMediaAudio",
+      "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatMediaVideo",
+      "version": "1.0.0"
     }
   ],
   "web": [],
@@ -26,6 +41,27 @@
       "name": "weex-plugin-modal",
       "version": "1.0.1-alpha",
       "dependency": "com.instapp.nat:weex-plugin-modal:1.0.1-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-media-image",
+      "version": "1.0.1",
+      "dependency": "com.instapp.nat:weex-plugin-media-image:1.0.1"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-media-audio",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-media-audio:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-media-video",
+      "version": "1.0.0-alpha",
+      "dependency": "com.instapp.nat:weex-plugin-media-video:1.0.0-alpha"
     }
   ]
 }

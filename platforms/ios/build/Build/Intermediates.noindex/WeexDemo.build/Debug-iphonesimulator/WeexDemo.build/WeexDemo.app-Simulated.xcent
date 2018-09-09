@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>C98WNSP553.com.taobao.WeexPlayground</string>
+	<string>C98WNSP553.com.demo.nat</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>C98WNSP553.com.taobao.WeexPlayground</string>
+		<string>C98WNSP553.com.demo.nat</string>
 	</array>
 </dict>
 </plist>

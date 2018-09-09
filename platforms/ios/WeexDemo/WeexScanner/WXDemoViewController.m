@@ -43,10 +43,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
 
-//     [self setupNaviBar];
-//     [self setupRightBarItem];
+     [self setupNaviBar];
+     [self setupRightBarItem];
     self.view.backgroundColor = [UIColor whiteColor];
     
     _weexHeight = self.view.frame.size.height - 64;

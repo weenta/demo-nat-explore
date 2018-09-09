@@ -1,6 +1,6 @@
 <template>
   <div>
-    <status-bar background-color='#67C23A'/>
+    <status-bar :background-color='bg'/>
     <nav-bar/>
     <scroller :show-scrollbar='false' class='content'>
       <title-bar :title='name' @click='showModal'/>
@@ -51,7 +51,8 @@ export default {
   },
   data() {
     return {
-      name: 'call'
+      name: 'call',
+      bg: '#ccc'
     }
   },
   methods: {
@@ -60,12 +61,11 @@ export default {
     },
     callWithCb() {
       Nat.call('10086',()=>{
-        console.log('called')
+        Nat.toast('10086 called')
       })
     },
     showModal() {
       let isX = env.platform === 'ios' && env.deviceWidth === 1125 && env.deviceHeight === 2436
-      console.log('------>isX',isX)
       Nat.confirm('isX: ' + isX )
     }
   }

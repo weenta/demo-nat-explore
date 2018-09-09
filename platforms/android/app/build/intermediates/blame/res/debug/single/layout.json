@@ -12,6 +12,10 @@
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/res/layout/design_navigation_item_separator.xml"
     },
     {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/mis_cmp_customer_actionbar.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/mis_cmp_customer_actionbar.xml"
+    },
+    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
@@ -100,12 +104,20 @@
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_media.xml"
     },
     {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/mis_list_item_image.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/mis_list_item_image.xml"
+    },
+    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/controller.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-video/2.0.0/res/layout/controller.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -130,6 +142,10 @@
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/26.1.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/mis_activity_default.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/mis_activity_default.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
@@ -162,6 +178,10 @@
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/mis_list_item_folder.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/mis_list_item_folder.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
@@ -232,8 +252,16 @@
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/activity_video.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-video/2.0.0/res/layout/activity_video.xml"
+    },
+    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/activity_image_preview.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/activity_image_preview.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
@@ -258,5 +286,9 @@
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/mis_list_item_camera.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/layout/mis_list_item_camera.xml"
     }
 ]

@@ -58,11 +58,23 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		9Ias1UF2P+CK5VT0DnkzsbGa9Bo=
+		EjFC1AJMBvtbXY6H4HRxL6jCA/4=
+		</data>
+		<key>ImageError.png</key>
+		<data>
+		4MedHZzwmSaK7kuMmztzDf227jw=
+		</data>
+		<key>ImageError@2x.png</key>
+		<data>
+		oSxB75ICqmC+3aNrr0PQ2Fiw0MU=
+		</data>
+		<key>ImageError@3x.png</key>
+		<data>
+		GEo5tKULv9SlpRJLmHj9cT+8mfE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WtH53Ox4v4Rsy8cHylao95Bbkqs=
+		UCeOjc2rxkhIYkPTe4MVYxQDOt0=
 		</data>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
 		<data>
@@ -104,9 +116,145 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlayButtonOverlayLarge.png</key>
+		<data>
+		F1HBluWeWcE5RuOSkmFpIhmevwI=
+		</data>
+		<key>PlayButtonOverlayLarge@2x.png</key>
+		<data>
+		RPTUPyO+8m2u6ceg1e1cVsiZu9o=
+		</data>
+		<key>PlayButtonOverlayLarge@3x.png</key>
+		<data>
+		QinTF4oGJNHjqdNZIryXR2WA74A=
+		</data>
+		<key>PlayButtonOverlayLargeTap.png</key>
+		<data>
+		oHYyImBgGUp3u1cKDFSdx8ADidY=
+		</data>
+		<key>PlayButtonOverlayLargeTap@2x.png</key>
+		<data>
+		jRe+pQJYSZxYlJTvYnRb3Y8wwR0=
+		</data>
+		<key>PlayButtonOverlayLargeTap@3x.png</key>
+		<data>
+		Z10DoZqmHqJVWchmUVROdekZBEs=
+		</data>
+		<key>TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png</key>
+		<data>
+		a0njhOHaqgjMkmBpYWYxnMlnDyU=
+		</data>
+		<key>TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png</key>
+		<data>
+		ckX1OIPbendWtIY9d+j+kbbo9Vw=
+		</data>
+		<key>TZImagePickerController.bundle/Root.plist</key>
+		<data>
+		jOhqEUF1/xyY+fuswiWT+ELC3dI=
+		</data>
+		<key>TZImagePickerController.bundle/VideoSendIcon@2x.png</key>
+		<data>
+		w2Y6klkQgHjIYsEZUfBZs3Yt+/0=
+		</data>
+		<key>TZImagePickerController.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			novGefDyl9FiTbCwHdjSuE+KVpg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/navi_back@2x.png</key>
+		<data>
+		M1rsPoGnPAmXKZoRtK1wzcseNYI=
+		</data>
+		<key>TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png</key>
+		<data>
+		TowaKFKzU3fYhK+It4oKIhuCpk0=
+		</data>
+		<key>TZImagePickerController.bundle/photo_def_previewVc@2x.png</key>
+		<data>
+		TowaKFKzU3fYhK+It4oKIhuCpk0=
+		</data>
+		<key>TZImagePickerController.bundle/photo_number_icon@2x.png</key>
+		<data>
+		nKZxsZi268vELJiTN32F7cHAkY8=
+		</data>
+		<key>TZImagePickerController.bundle/photo_original_def@2x.png</key>
+		<data>
+		uaNzK2Fysh8bWaGPqXKapGGUX9g=
+		</data>
+		<key>TZImagePickerController.bundle/photo_original_sel@2x.png</key>
+		<data>
+		qqo+wstTy+/qO7CID91ZNrhq/Us=
+		</data>
+		<key>TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png</key>
+		<data>
+		1maHDZQyFhPSgDG5iqKrPz10BQE=
+		</data>
+		<key>TZImagePickerController.bundle/photo_sel_previewVc@2x.png</key>
+		<data>
+		YGb26ZPCkiAL0gm2EPZvp52S3h4=
+		</data>
+		<key>TZImagePickerController.bundle/preview_number_icon@2x.png</key>
+		<data>
+		nKZxsZi268vELJiTN32F7cHAkY8=
+		</data>
+		<key>TZImagePickerController.bundle/preview_original_def@2x.png</key>
+		<data>
+		GVzy25+bRYA1MrAG22+vkO35VRo=
+		</data>
+		<key>TZImagePickerController.bundle/takePicture80@2x.png</key>
+		<data>
+		FRMjStf508fLB8xVTzk1PXoASmw=
+		</data>
+		<key>TZImagePickerController.bundle/takePicture@2x.png</key>
+		<data>
+		I0tOOwrDT9Q2o3Jd0OeSTb4bPAE=
+		</data>
+		<key>TZImagePickerController.bundle/vi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			StuVjQObz/T1qp+Jav0LDJKiwro=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I6iWlZNc41F1sol2gU5Oa8S0/s4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i80sQg3gsa0HPHenlDdZJRNXF74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VideoOverlay.png</key>
+		<data>
+		7LmCv0EnDO0NfBri50lyIZFhFKY=
+		</data>
+		<key>VideoOverlay@2x.png</key>
+		<data>
+		kM81lcxkBNcQXPh95cNWE6U99Mg=
+		</data>
+		<key>VideoOverlay@3x.png</key>
+		<data>
+		Ccq12urOGvUd+FngOMaGw9EUdW0=
+		</data>
 		<key>WeexDemo-Info.plist</key>
 		<data>
-		VScOHynUksQj77sOCz8W+FiPHKE=
+		VjsdErqW9VDKxsYd+PpmDQ3n7Jw=
 		</data>
 		<key>bundlejs/components/HelloWorld.js</key>
 		<data>
@@ -114,11 +262,11 @@
 		</data>
 		<key>bundlejs/components/Module.js</key>
 		<data>
-		grF8PX6KH2pMdHJuPbqGJiI/OOk=
+		8RovZSwn5wSNymW1A93Er5lJQXQ=
 		</data>
 		<key>bundlejs/index.js</key>
 		<data>
-		zuG5Xqd74cB7mD9cFx/T83nekfk=
+		xBq1evHj5TcUrDJw4aa1G/zGRa0=
 		</data>
 		<key>bundlejs/layout/navBar.js</key>
 		<data>
@@ -126,7 +274,7 @@
 		</data>
 		<key>bundlejs/layout/statusBar.js</key>
 		<data>
-		tUdOMzqaBdFvdopIF4cNI4H1WEc=
+		hApHmKCAgjkaYB0oAcstQibLE0k=
 		</data>
 		<key>bundlejs/layout/titleBar.js</key>
 		<data>
@@ -134,15 +282,27 @@
 		</data>
 		<key>bundlejs/views/communication/call.js</key>
 		<data>
-		S3cvFShNbj+37E1nF6NGJ+yr+UY=
+		u/5c5Vu2EnLVUeDxlnApB5KcdnA=
 		</data>
 		<key>bundlejs/views/communication/mail.js</key>
 		<data>
-		A+zvaID/GlV5f37Rz2bQM01Xn4g=
+		AF1rtQvgJaO7MAFhWFhNeeXFaaI=
 		</data>
 		<key>bundlejs/views/communication/sms.js</key>
 		<data>
-		UlYMWGB7k3dWpt2+qt/+G8w9yAA=
+		FJ9wVFdqBT4qXgvMDazUauV7HD8=
+		</data>
+		<key>bundlejs/views/media/audio.js</key>
+		<data>
+		KNj6zujBZvU6YLFuWWWF5wT//Nk=
+		</data>
+		<key>bundlejs/views/media/image.js</key>
+		<data>
+		EnKzAR2GoolzH8hYgwwqAPCo/WU=
+		</data>
+		<key>bundlejs/views/media/video.js</key>
+		<data>
+		0W0+CQiaGHmnCZd/qHRbHT7SG3A=
 		</data>
 		<key>config.xml</key>
 		<data>
@@ -318,11 +478,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9Ias1UF2P+CK5VT0DnkzsbGa9Bo=
+			EjFC1AJMBvtbXY6H4HRxL6jCA/4=
 			</data>
 			<key>hash2</key>
 			<data>
-			CImiSplRr7EvK/PP41HZxge6xW45azHNECFeNKXmQfw=
+			QAo8m6GRRwPVJwn2SmUOaeBxqiUpGyRZpnKE+AA9r1A=
+			</data>
+		</dict>
+		<key>ImageError.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4MedHZzwmSaK7kuMmztzDf227jw=
+			</data>
+			<key>hash2</key>
+			<data>
+			0TY8W1EK48CUyIOCw/bIcAHXlbtPviz/5kvaZE1gkcw=
+			</data>
+		</dict>
+		<key>ImageError@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oSxB75ICqmC+3aNrr0PQ2Fiw0MU=
+			</data>
+			<key>hash2</key>
+			<data>
+			dh6Djcj5oCMqWMG7Wa3rfbqxx3NDsV1DTgpWitrCf6c=
+			</data>
+		</dict>
+		<key>ImageError@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GEo5tKULv9SlpRJLmHj9cT+8mfE=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Ago1vNmxndUwn025UQ5KCnzYuYsA8L3I8Xfhta8V+g=
 			</data>
 		</dict>
 		<key>LaunchImage-1100-Landscape-2436h@3x.png</key>
@@ -424,15 +617,342 @@
 			kZDP19ScYiKxOeSzXKKq18MrKHDIKfbUICGxPsEcYi0=
 			</data>
 		</dict>
+		<key>PlayButtonOverlayLarge.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F1HBluWeWcE5RuOSkmFpIhmevwI=
+			</data>
+			<key>hash2</key>
+			<data>
+			LozhHQbRJHJ8zf6sEABXtvpIzR2k7HZZbRee/s06ojU=
+			</data>
+		</dict>
+		<key>PlayButtonOverlayLarge@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RPTUPyO+8m2u6ceg1e1cVsiZu9o=
+			</data>
+			<key>hash2</key>
+			<data>
+			0M1QgwkUZrcQP0Ccr8N9x4BFcnKPEegJAg+x6WL/yYc=
+			</data>
+		</dict>
+		<key>PlayButtonOverlayLarge@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QinTF4oGJNHjqdNZIryXR2WA74A=
+			</data>
+			<key>hash2</key>
+			<data>
+			HLvOYIGiPypOS5rcAIPwu//e3O7iEEvv+ktPMoDtTog=
+			</data>
+		</dict>
+		<key>PlayButtonOverlayLargeTap.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oHYyImBgGUp3u1cKDFSdx8ADidY=
+			</data>
+			<key>hash2</key>
+			<data>
+			+kaNsg5BXiIskjeBq9VGd5LksDcJRgs4P7x5PW10ifU=
+			</data>
+		</dict>
+		<key>PlayButtonOverlayLargeTap@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jRe+pQJYSZxYlJTvYnRb3Y8wwR0=
+			</data>
+			<key>hash2</key>
+			<data>
+			0krk5MjL/TfYpbKatET99EC5yBI2U8Qi8uaFab8R34Q=
+			</data>
+		</dict>
+		<key>PlayButtonOverlayLargeTap@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Z10DoZqmHqJVWchmUVROdekZBEs=
+			</data>
+			<key>hash2</key>
+			<data>
+			pSHiG52+SrP0LW5UXoP9/xgzWDHlqpxx5fRKs2zijtg=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/MMVideoPreviewPlay@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a0njhOHaqgjMkmBpYWYxnMlnDyU=
+			</data>
+			<key>hash2</key>
+			<data>
+			rpJCY4irJtYw12iyifl9WFsAVCDUZ60jE77ubgcOV/4=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/MMVideoPreviewPlayHL@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ckX1OIPbendWtIY9d+j+kbbo9Vw=
+			</data>
+			<key>hash2</key>
+			<data>
+			eQMhR9TDkW66Ej6Wzh3vt0DqefvrcweFEnTJVgx+pmE=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/Root.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jOhqEUF1/xyY+fuswiWT+ELC3dI=
+			</data>
+			<key>hash2</key>
+			<data>
+			m26DmegPkB5jwUJkVEtLlObYALX8He100Ny0+NNJg/g=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/VideoSendIcon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w2Y6klkQgHjIYsEZUfBZs3Yt+/0=
+			</data>
+			<key>hash2</key>
+			<data>
+			79aZK+4fli3Lb+aQ6bLKa6kFIv63uO6b6OwDDRqEKeo=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			novGefDyl9FiTbCwHdjSuE+KVpg=
+			</data>
+			<key>hash2</key>
+			<data>
+			mJZ00n0vl4FwrAtI1xf2UfBsuiNGp3sFj8xY3RYGFF8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/navi_back@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M1rsPoGnPAmXKZoRtK1wzcseNYI=
+			</data>
+			<key>hash2</key>
+			<data>
+			1NcM2CvH/5ZK4mtvqpo5QEYVaosOfwB4Xm5A4XNfHsQ=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_def_photoPickerVc@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TowaKFKzU3fYhK+It4oKIhuCpk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			MtEKha2kp7hKoO2wSA7YGxzTBDlW1Yeg1yI0MrLoiWs=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_def_previewVc@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TowaKFKzU3fYhK+It4oKIhuCpk0=
+			</data>
+			<key>hash2</key>
+			<data>
+			MtEKha2kp7hKoO2wSA7YGxzTBDlW1Yeg1yI0MrLoiWs=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_number_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nKZxsZi268vELJiTN32F7cHAkY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			vA84N0t2q9GzYYF3yf1m6Fn44ixKZosJjOegAZsHOdk=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_original_def@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uaNzK2Fysh8bWaGPqXKapGGUX9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ssgn02Ijdm64+O1bE25CQCGfSWqoeMZGBoBJQHYLzS8=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_original_sel@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qqo+wstTy+/qO7CID91ZNrhq/Us=
+			</data>
+			<key>hash2</key>
+			<data>
+			MLhfh5RPkkmmMffAyV55azOoDgepKoCK2fXnavGMZNM=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_sel_photoPickerVc@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1maHDZQyFhPSgDG5iqKrPz10BQE=
+			</data>
+			<key>hash2</key>
+			<data>
+			s6RfkvNkaQeeKIEe9rw2kIJjoUdN7J7xt81ONMfSLAI=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/photo_sel_previewVc@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YGb26ZPCkiAL0gm2EPZvp52S3h4=
+			</data>
+			<key>hash2</key>
+			<data>
+			b4LvW24gDlJWARWOh/M30GpmslkX+8hVxCMRtEj6Z0U=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/preview_number_icon@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nKZxsZi268vELJiTN32F7cHAkY8=
+			</data>
+			<key>hash2</key>
+			<data>
+			vA84N0t2q9GzYYF3yf1m6Fn44ixKZosJjOegAZsHOdk=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/preview_original_def@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GVzy25+bRYA1MrAG22+vkO35VRo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xrv0NGLE9a4gFpLK82tB0r4HnaSv3CP0TeJfwkwjRw8=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/takePicture80@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FRMjStf508fLB8xVTzk1PXoASmw=
+			</data>
+			<key>hash2</key>
+			<data>
+			Uv8RFUDbC4a97vuDrN1kYh6ZX5yDYYkhOGgBgInVbnc=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/takePicture@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I0tOOwrDT9Q2o3Jd0OeSTb4bPAE=
+			</data>
+			<key>hash2</key>
+			<data>
+			djfY78DEKJ8HhXY8//sW7zJT97v7gzXHMl8M/LGncJk=
+			</data>
+		</dict>
+		<key>TZImagePickerController.bundle/vi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			StuVjQObz/T1qp+Jav0LDJKiwro=
+			</data>
+			<key>hash2</key>
+			<data>
+			bm7LXIIymWhTTaWx2H52ww7TL5tC6SabQI0J2rFQdmw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			I6iWlZNc41F1sol2gU5Oa8S0/s4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/C21mDzjF4t5QPxBgfjRQKgyssoy9h3CrJgG3TOQdqg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>TZImagePickerController.bundle/zh-Hant.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i80sQg3gsa0HPHenlDdZJRNXF74=
+			</data>
+			<key>hash2</key>
+			<data>
+			X/3M9stRwnFitVoFvpFFfPcogvkXfLHHwFVT+OwmVsY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>VideoOverlay.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7LmCv0EnDO0NfBri50lyIZFhFKY=
+			</data>
+			<key>hash2</key>
+			<data>
+			MQULl4QnRznGQ4WY9HQHLNx8bRynmCldl05rZ4M5Mkw=
+			</data>
+		</dict>
+		<key>VideoOverlay@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kM81lcxkBNcQXPh95cNWE6U99Mg=
+			</data>
+			<key>hash2</key>
+			<data>
+			GnNYaa2SzB78uZljgwEEkrnpYYVA1A73QZ1m1rSe/58=
+			</data>
+		</dict>
+		<key>VideoOverlay@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ccq12urOGvUd+FngOMaGw9EUdW0=
+			</data>
+			<key>hash2</key>
+			<data>
+			+YJHEC4hTn0HtSsNdZWOvC39nX76CzyMX0u71ztjvdE=
+			</data>
+		</dict>
 		<key>WeexDemo-Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VScOHynUksQj77sOCz8W+FiPHKE=
+			VjsdErqW9VDKxsYd+PpmDQ3n7Jw=
 			</data>
 			<key>hash2</key>
 			<data>
-			+SjOIlhjOM/PHhrjAAZQVSDfX8JN3usqMDx1xTYwlIE=
+			foTZh/fAPpMlxj/7+h1J35H3NBp3+A2H0Fd0pVNVf3M=
 			</data>
 		</dict>
 		<key>bundlejs/components/HelloWorld.js</key>
@@ -450,22 +970,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			grF8PX6KH2pMdHJuPbqGJiI/OOk=
+			8RovZSwn5wSNymW1A93Er5lJQXQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			oIMf0rIWChjyI9sF8A6RAkzy2DWPNzX2SlOeA+XWlBw=
+			P7kYozux8d+NfrQEBAp9jG+sW/T1vjoQOCh4oeGu1Yo=
 			</data>
 		</dict>
 		<key>bundlejs/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zuG5Xqd74cB7mD9cFx/T83nekfk=
+			xBq1evHj5TcUrDJw4aa1G/zGRa0=
 			</data>
 			<key>hash2</key>
 			<data>
-			AzccVe0/xH2r7PTs4gHOisBbj6XO3/YDJ+P3+UcNL80=
+			frwc5KAHbY+soA9wQuDz8D/7uXHAxXJnJAS12k8QOIg=
 			</data>
 		</dict>
 		<key>bundlejs/layout/navBar.js</key>
@@ -483,11 +1003,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tUdOMzqaBdFvdopIF4cNI4H1WEc=
+			hApHmKCAgjkaYB0oAcstQibLE0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ulg5LIZRV9kzxqp2jzj2vJQmMb0ROSFRBLR08Gpaaqs=
+			8RwwXTTY1LENxXva/j3Kwj1oIAkJsBV0IUwv8bgjATI=
 			</data>
 		</dict>
 		<key>bundlejs/layout/titleBar.js</key>
@@ -505,33 +1025,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S3cvFShNbj+37E1nF6NGJ+yr+UY=
+			u/5c5Vu2EnLVUeDxlnApB5KcdnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Eyv2H++ouHdtA1xl//x3bMca+kO/YYV92ykeXhSXQUU=
+			2tcAieaYb3TNIp46+hpvOMlBupqKwmY3Z6KR4lSVwvs=
 			</data>
 		</dict>
 		<key>bundlejs/views/communication/mail.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A+zvaID/GlV5f37Rz2bQM01Xn4g=
+			AF1rtQvgJaO7MAFhWFhNeeXFaaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			o77aqvIwbFvfe94vQr0dac9vRQa1AzzRrJH+46lNUGI=
+			eX+YBCSHCBJmC4O/RM17F/bEVakjM4m8E9d68KcStpQ=
 			</data>
 		</dict>
 		<key>bundlejs/views/communication/sms.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UlYMWGB7k3dWpt2+qt/+G8w9yAA=
+			FJ9wVFdqBT4qXgvMDazUauV7HD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RAwg3IyZRo7+muDVqRDbQP35esbIFhMDskRZJmghS8w=
+			L3Q2zP4UCYGJ02XCfS5voWHKQzNKwIy/lSm9+qEFQZk=
+			</data>
+		</dict>
+		<key>bundlejs/views/media/audio.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KNj6zujBZvU6YLFuWWWF5wT//Nk=
+			</data>
+			<key>hash2</key>
+			<data>
+			pc/7pv1vxmgZGq5A3YZtoWuDw0+QXtAyKg3Uz9uoQ3w=
+			</data>
+		</dict>
+		<key>bundlejs/views/media/image.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EnKzAR2GoolzH8hYgwwqAPCo/WU=
+			</data>
+			<key>hash2</key>
+			<data>
+			yJUZRY2cxGZ3Zd1sdWHVOClgLguNp4qxX9eOkJnDuog=
+			</data>
+		</dict>
+		<key>bundlejs/views/media/video.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			0W0+CQiaGHmnCZd/qHRbHT7SG3A=
+			</data>
+			<key>hash2</key>
+			<data>
+			NPxHdBTFuyQaP3PMOLGumrqqlqvXDBwj9zM7rfiyCbo=
 			</data>
 		</dict>
 		<key>config.xml</key>

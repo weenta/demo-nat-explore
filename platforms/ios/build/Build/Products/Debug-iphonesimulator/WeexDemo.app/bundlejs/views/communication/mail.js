@@ -115,18 +115,60 @@ exports.default = env;
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var isNative = (typeof window === 'undefined' ? 'undefined' : _typeof(window)) !== 'object';
+
+var isFn = function isFn(fn) {
+	return typeof fn === 'function';
+};
+
+var isPhone = function isPhone(str) {
+	if (typeof str === 'number') {
+		str = str.toString();
+	} else if (typeof str !== 'string') {
+		return false;
+	}
+
+	return (/^\+?[\d\-\#\*\.\(\)]+$/.test(str)
+	);
+};
+
+var isEmail = function isEmail(str) {
+	if (typeof str !== 'string') {
+		return false;
+	}
+
+	return (/^(\w)+([\.\-\_]\w+)*@(\w)+(([\.\-\_]\w+)+)$/.test(str)
+	);
+};
+
+module.exports = {
+	isNative: isNative,
+	isFn: isFn,
+	isPhone: isPhone,
+	isEmail: isEmail
+};
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(2)
+__vue_styles__.push(__webpack_require__(3)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(3)
+__vue_exports__ = __webpack_require__(4)
 
 /* template */
-var __vue_template__ = __webpack_require__(4)
+var __vue_template__ = __webpack_require__(5)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -156,7 +198,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -173,7 +215,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 3 */
+/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -225,7 +267,7 @@ exports.default = {
 //
 
 /***/ }),
-/* 4 */
+/* 5 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -240,48 +282,6 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   })]) : _vm._e()
 },staticRenderFns: []}
 module.exports.render._withStripped = true
-
-/***/ }),
-/* 5 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var isNative = (typeof window === 'undefined' ? 'undefined' : _typeof(window)) !== 'object';
-
-var isFn = function isFn(fn) {
-	return typeof fn === 'function';
-};
-
-var isPhone = function isPhone(str) {
-	if (typeof str === 'number') {
-		str = str.toString();
-	} else if (typeof str !== 'string') {
-		return false;
-	}
-
-	return (/^\+?[\d\-\#\*\.\(\)]+$/.test(str)
-	);
-};
-
-var isEmail = function isEmail(str) {
-	if (typeof str !== 'string') {
-		return false;
-	}
-
-	return (/^(\w)+([\.\-\_]\w+)*@(\w)+(([\.\-\_]\w+)+)$/.test(str)
-	);
-};
-
-module.exports = {
-	isNative: isNative,
-	isFn: isFn,
-	isPhone: isPhone,
-	isEmail: isEmail
-};
 
 /***/ }),
 /* 6 */
@@ -528,11 +528,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 module.exports.render._withStripped = true
 
 /***/ }),
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -541,18 +537,18 @@ module.exports.render._withStripped = true
 var Nat = {};
 
 if (weex && weex.requireModule || typeof __weex_define__ === 'function') {
-	var camera = __webpack_require__(19);
-	var communication = __webpack_require__(20);
-	var geolocation = __webpack_require__(21);
-	var media = __webpack_require__(22);
-	var modal = __webpack_require__(26);
-	var recorder = __webpack_require__(27);
-	var network = __webpack_require__(28);
-	var sensor = __webpack_require__(31);
-	var device = __webpack_require__(34);
-	var Navigator = __webpack_require__(41);
-	var alipay = __webpack_require__(42);
-	var wechat = __webpack_require__(43);
+	var camera = __webpack_require__(15);
+	var communication = __webpack_require__(16);
+	var geolocation = __webpack_require__(17);
+	var media = __webpack_require__(18);
+	var modal = __webpack_require__(22);
+	var recorder = __webpack_require__(23);
+	var network = __webpack_require__(24);
+	var sensor = __webpack_require__(27);
+	var device = __webpack_require__(30);
+	var Navigator = __webpack_require__(37);
+	var alipay = __webpack_require__(38);
+	var wechat = __webpack_require__(39);
 
 	// camera
 	if (camera) {
@@ -635,7 +631,7 @@ if (weex && weex.requireModule || typeof __weex_define__ === 'function') {
 module.exports = Nat;
 
 /***/ }),
-/* 19 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -710,13 +706,13 @@ module.exports = {
 };
 
 /***/ }),
-/* 20 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(1);
 
 var _utils2 = _interopRequireDefault(_utils);
 
@@ -871,7 +867,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 21 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -961,21 +957,21 @@ module.exports = {
 };
 
 /***/ }),
-/* 22 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _audio = __webpack_require__(23);
+var _audio = __webpack_require__(19);
 
 var _audio2 = _interopRequireDefault(_audio);
 
-var _image = __webpack_require__(24);
+var _image = __webpack_require__(20);
 
 var _image2 = _interopRequireDefault(_image);
 
-var _video = __webpack_require__(25);
+var _video = __webpack_require__(21);
 
 var _video2 = _interopRequireDefault(_video);
 
@@ -988,7 +984,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 23 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1072,7 +1068,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 24 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1238,7 +1234,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 25 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1322,7 +1318,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 26 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1330,7 +1326,7 @@ module.exports = {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(1);
 
 var modal = void 0;
 
@@ -1543,7 +1539,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 27 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1639,17 +1635,17 @@ module.exports = {
 };
 
 /***/ }),
-/* 28 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _stream = __webpack_require__(29);
+var _stream = __webpack_require__(25);
 
 var _stream2 = _interopRequireDefault(_stream);
 
-var _transfer = __webpack_require__(30);
+var _transfer = __webpack_require__(26);
 
 var _transfer2 = _interopRequireDefault(_transfer);
 
@@ -1666,7 +1662,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 29 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1674,7 +1670,7 @@ module.exports = {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(1);
 
 var stream = void 0;
 
@@ -1843,7 +1839,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 30 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2004,17 +2000,17 @@ module.exports = {
 };
 
 /***/ }),
-/* 31 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _accelerometer = __webpack_require__(32);
+var _accelerometer = __webpack_require__(28);
 
 var _accelerometer2 = _interopRequireDefault(_accelerometer);
 
-var _compass = __webpack_require__(33);
+var _compass = __webpack_require__(29);
 
 var _compass2 = _interopRequireDefault(_compass);
 
@@ -2026,7 +2022,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 32 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2114,7 +2110,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 33 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2202,33 +2198,33 @@ module.exports = {
 };
 
 /***/ }),
-/* 34 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _info = __webpack_require__(35);
+var _info = __webpack_require__(31);
 
 var _info2 = _interopRequireDefault(_info);
 
-var _battery = __webpack_require__(36);
+var _battery = __webpack_require__(32);
 
 var _battery2 = _interopRequireDefault(_battery);
 
-var _network = __webpack_require__(37);
+var _network = __webpack_require__(33);
 
 var _network2 = _interopRequireDefault(_network);
 
-var _screen = __webpack_require__(38);
+var _screen = __webpack_require__(34);
 
 var _screen2 = _interopRequireDefault(_screen);
 
-var _vibration = __webpack_require__(39);
+var _vibration = __webpack_require__(35);
 
 var _vibration2 = _interopRequireDefault(_vibration);
 
-var _volume = __webpack_require__(40);
+var _volume = __webpack_require__(36);
 
 var _volume2 = _interopRequireDefault(_volume);
 
@@ -2244,7 +2240,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 35 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2283,7 +2279,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 36 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2322,7 +2318,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 37 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2361,7 +2357,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 38 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2501,7 +2497,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 39 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2545,7 +2541,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 40 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2603,7 +2599,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 41 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2857,7 +2853,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 42 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2996,7 +2992,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 43 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3267,6 +3263,10 @@ var wechat = {
 module.exports = wechat;
 
 /***/ }),
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
 /* 44 */,
 /* 45 */,
 /* 46 */,
@@ -3304,11 +3304,15 @@ new Vue(_mail2.default);
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
+/* styles */
+__vue_styles__.push(__webpack_require__(61)
+)
+
 /* script */
-__vue_exports__ = __webpack_require__(61)
+__vue_exports__ = __webpack_require__(62)
 
 /* template */
-var __vue_template__ = __webpack_require__(62)
+var __vue_template__ = __webpack_require__(63)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3323,6 +3327,7 @@ if (typeof __vue_options__ === "function") {
 __vue_options__.__file = "/Users/weenta/01data/03weex/demo_nat_explorer2/src/views/communication/mail.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
+__vue_options__._scopeId = "data-v-e3c2d02c"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -3338,6 +3343,52 @@ module.exports = __vue_exports__
 
 /***/ }),
 /* 61 */
+/***/ (function(module, exports) {
+
+module.exports = {
+  "bottom-line": {
+    "borderBottomWidth": "1",
+    "borderBottomStyle": "solid",
+    "borderBottomColor": "#dddddd"
+  },
+  "content": {
+    "paddingLeft": "48",
+    "paddingRight": "48"
+  },
+  "case": {
+    "marginBottom": "36"
+  },
+  "header": {
+    "height": "94",
+    "flexDirection": "row",
+    "alignItems": "center"
+  },
+  "dot": {
+    "backgroundColor": "#3D83FB",
+    "width": "16",
+    "height": "16",
+    "borderRadius": "8",
+    "marginRight": "16"
+  },
+  "title": {
+    "fontSize": "32",
+    "fontWeight": "700"
+  },
+  "code": {
+    "fontSize": "24",
+    "color": "#555555",
+    "backgroundColor": "#f7f7f7",
+    "borderRadius": "8",
+    "paddingLeft": "36",
+    "paddingRight": "36",
+    "paddingTop": "32",
+    "paddingBottom": "32",
+    "width": "654"
+  }
+}
+
+/***/ }),
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3351,7 +3402,7 @@ var _navBar = __webpack_require__(6);
 
 var _navBar2 = _interopRequireDefault(_navBar);
 
-var _statusBar = __webpack_require__(1);
+var _statusBar = __webpack_require__(2);
 
 var _statusBar2 = _interopRequireDefault(_statusBar);
 
@@ -3359,7 +3410,7 @@ var _titleBar = __webpack_require__(10);
 
 var _titleBar2 = _interopRequireDefault(_titleBar);
 
-var _natjs = __webpack_require__(18);
+var _natjs = __webpack_require__(14);
 
 var _natjs2 = _interopRequireDefault(_natjs);
 
@@ -3384,11 +3435,36 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 exports.default = {
+  name: 'Mail',
   components: {
     NavBar: _navBar2.default,
-    StatusBar: _statusBar2.default
+    StatusBar: _statusBar2.default,
+    TitleBar: _titleBar2.default
   },
   data: function data() {
     return {
@@ -3398,37 +3474,59 @@ exports.default = {
 
   methods: {
     mail: function mail() {
-      _natjs2.default.confirm('send mail?');
+      // Nat.confirm('send mail?')
+      _natjs2.default.mail('demonat@qq.com');
+    },
+    mailMuti: function mailMuti() {
+      _natjs2.default.mail(['hi@natjs.com', 'dev@natjs.com']);
+    },
+    mailMutiWithCb: function mailMutiWithCb() {
+      _natjs2.default.mail(['hi@natjs.com', 'dev@natjs.com'], {
+        subject: 'Subject',
+        body: 'content goes here'
+      }, function () {
+        _natjs2.default.toast('email popup');
+      });
     }
   }
 };
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', [_c('status-bar', {
-    attrs: {
-      "backgroundColor": "#999"
-    }
-  }), _c('nav-bar'), _c('scroller', {
+  return _c('div', [_c('status-bar'), _c('nav-bar'), _c('scroller', {
     staticClass: ["content"],
     attrs: {
       "showScrollbar": false
-    }
-  }, [_c('div', {
-    staticClass: ["case"],
-    on: {
-      "click": _vm.mail
     }
   }, [_c('title-bar', {
     attrs: {
       "title": _vm.name
     }
-  }), _vm._m(0), _c('text', {
+  }), _c('div', {
+    staticClass: ["case"],
+    on: {
+      "click": _vm.mail
+    }
+  }, [_vm._m(0), _c('text', {
     staticClass: ["code"]
-  }, [_vm._v("\n        Nat.mail('demonat@qq.com')\n      ")])], 1)])], 1)
+  }, [_vm._v("\n        Nat.mail('demonat@qq.com')\n      ")])]), _c('div', {
+    staticClass: ["case"],
+    on: {
+      "click": _vm.mailMuti
+    }
+  }, [_vm._m(1), _c('text', {
+    staticClass: ["code"]
+  }, [_vm._v("\n        Nat.mail(['hi@natjs.com', 'dev@natjs.com'])\n      ")])]), _c('div', {
+    staticClass: ["case"],
+    on: {
+      "click": _vm.mailMutiWithCb
+    }
+  }, [_vm._m(2), _c('text', {
+    staticClass: ["code"]
+  }, [_vm._v("\n        Nat.mail(['hi@natjs.com', 'dev@natjs.com'], {\n            subject: 'Subject',\n            body: 'content goes here'\n        }, () => {\n            console.log('email popup')\n        })\n      ")])])], 1)], 1)
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: ["header"]
@@ -3437,6 +3535,22 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }), _c('text', {
     staticClass: ["title"]
   }, [_vm._v("Simple Mail")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: ["header"]
+  }, [_c('text', {
+    staticClass: ["dot"]
+  }), _c('text', {
+    staticClass: ["title"]
+  }, [_vm._v("Mutiple recipients")])])
+},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: ["header"]
+  }, [_c('text', {
+    staticClass: ["dot"]
+  }), _c('text', {
+    staticClass: ["title"]
+  }, [_vm._v("Mutiple recipients and callback")])])
 }]}
 module.exports.render._withStripped = true
 

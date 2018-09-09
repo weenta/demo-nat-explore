@@ -321,7 +321,8 @@
 				TargetAttributes = {
 					775BEE7A1C1E8ECC008D1629 = {
 						CreatedOnToolsVersion = 7.1.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = C98WNSP553;
+						ProvisioningStyle = Automatic;
 					};
 					775BEE931C1E8ECC008D1629 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -434,17 +435,39 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WeexDemo/Pods-WeexDemo-resources.sh",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@3x.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
@@ -460,11 +483,37 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WeexUITestDemo/Pods-WeexUITestDemo-resources.sh",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@3x.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/WeexSDK/pre-build/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/ios/sdk/WeexSDK/Resources/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
@@ -478,15 +527,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-WeexDemo-checkManifestLockResult.txt",
 			);
@@ -633,7 +678,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C98WNSP553;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -660,9 +706,10 @@
 					"$(inherited)",
 					"-licucore",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.nat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -675,7 +722,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C98WNSP553;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -702,9 +750,10 @@
 					"$(inherited)",
 					"-licucore",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.WeexPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.nat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

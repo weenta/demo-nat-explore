@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSAppleMusicUsageDescription</key>  
+  <string>App需要您的同意,才能访问媒体资料库</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -29,6 +31,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>访问相册</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -48,28 +54,10 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-	<string></string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.160:8081</string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.160:8081</string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.160:8081</string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.160:8081</string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.160:8081</string>
+	<key>WXEntryBundleURL</key>
+	<string>bundlejs/index.js</string>
+	<key>WXSocketConnectionURL</key>
+	<string>ws://192.168.0.160:8080</string>
   <key>WXEntryBundleURL</key>
   <string>bundlejs/index.js</string>
   <key>WXSocketConnectionURL</key>
@@ -85,14 +73,10 @@
   <key>WXEntryBundleURL</key>
   <string>bundlejs/index.js</string>
   <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.101:8080</string>
+  <string>ws://192.168.0.160:8080</string>
   <key>WXEntryBundleURL</key>
   <string>bundlejs/index.js</string>
   <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.101:8080</string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://192.168.0.101:8080</string>
+  <string>ws://192.168.0.160:8080</string>
 </dict>
 </plist>
