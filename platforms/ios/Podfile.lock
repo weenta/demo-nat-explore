@@ -1,0 +1,51 @@
+PODS:
+  - NatCommunication (0.0.2)
+  - NatModal (0.0.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SocketRocket (0.4.2)
+  - WeexNatCommunication (1.0.0):
+    - NatCommunication
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexNatModal (1.0.1):
+    - NatModal
+    - WeexPluginLoader
+    - WeexSDK
+  - WeexPluginLoader (0.0.1.9.1):
+    - WeexSDK
+  - WeexSDK (0.18.0.3)
+
+DEPENDENCIES:
+  - SDWebImage (= 3.7.5)
+  - SocketRocket (= 0.4.2)
+  - WeexNatCommunication (= 1.0.0)
+  - WeexNatModal (= 1.0.1)
+  - WeexPluginLoader
+  - WeexSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - NatCommunication
+    - NatModal
+    - SDWebImage
+    - SocketRocket
+    - WeexNatCommunication
+    - WeexNatModal
+    - WeexPluginLoader
+    - WeexSDK
+
+SPEC CHECKSUMS:
+  NatCommunication: 0f817c81d9443a7db5dd08e6dbcab6262b4e1e35
+  NatModal: d084214ec79cb4992814c08bbc64ee4097ea4ea3
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
+  WeexNatCommunication: c311619645926ba22a88261138f0513d08291729
+  WeexNatModal: a7aaa8cefd0fdad745ea62b52bc8108a1ee68529
+  WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
+  WeexSDK: 173541f2d0042664168b305952398145c0c6039c
+
+PODFILE CHECKSUM: 3c54f872ca2b7110d5d451acb0ba4945518938e4
+
+COCOAPODS: 1.5.3

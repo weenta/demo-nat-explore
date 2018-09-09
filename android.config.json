@@ -1,0 +1,6 @@
+{
+  "AppName":"demo2",
+  "AppId":"com.demo2.nat",
+  "SplashText":"Hello\nDemo2",
+  "WeexBundle":"index.js"
+}
