@@ -2,6 +2,7 @@ PODS:
   - DACircularProgress (2.3.1)
   - MBProgressHUD (1.0.0)
   - NatAudio (0.0.3)
+  - NatCamera (0.0.2)
   - NatCommunication (0.0.2)
   - NatImage (0.0.8):
     - DACircularProgress (~> 2.3)
@@ -17,6 +18,10 @@ PODS:
   - SDWebImage/Core (3.7.5)
   - SocketRocket (0.4.2)
   - TZImagePickerController (2.1.9)
+  - WeexNatCamera (1.0.0):
+    - NatCamera
+    - WeexPluginLoader
+    - WeexSDK
   - WeexNatCommunication (1.0.0):
     - NatCommunication
     - WeexPluginLoader
@@ -44,6 +49,7 @@ PODS:
 DEPENDENCIES:
   - SDWebImage (= 3.7.5)
   - SocketRocket (= 0.4.2)
+  - WeexNatCamera (= 1.0.0)
   - WeexNatCommunication (= 1.0.0)
   - WeexNatMediaAudio (= 1.0.0)
   - WeexNatMediaImage (= 1.0.1)
@@ -57,6 +63,7 @@ SPEC REPOS:
     - DACircularProgress
     - MBProgressHUD
     - NatAudio
+    - NatCamera
     - NatCommunication
     - NatImage
     - NatModal
@@ -65,6 +72,7 @@ SPEC REPOS:
     - SDWebImage
     - SocketRocket
     - TZImagePickerController
+    - WeexNatCamera
     - WeexNatCommunication
     - WeexNatMediaAudio
     - WeexNatMediaImage
@@ -77,6 +85,7 @@ SPEC CHECKSUMS:
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   NatAudio: b674c999c5f19b6079e1c29dcb77e3aadbd5907a
+  NatCamera: 99304f801d5c40511114a372e6c25edf3b56693e
   NatCommunication: 0f817c81d9443a7db5dd08e6dbcab6262b4e1e35
   NatImage: d2d8679f1a65c20aed41648bf2b4e8f141f2f58d
   NatModal: d084214ec79cb4992814c08bbc64ee4097ea4ea3
@@ -85,6 +94,7 @@ SPEC CHECKSUMS:
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SocketRocket: ffe08119b00ef982f6c37052a4705a057c8494ad
   TZImagePickerController: 6c9721783063edafc9ad42cd95acc82f1b648485
+  WeexNatCamera: b491f6d72384a195589da5d07ab49af61e427c67
   WeexNatCommunication: c311619645926ba22a88261138f0513d08291729
   WeexNatMediaAudio: afefb553c0bfbe6f2cecb97d259a279f000f3c0b
   WeexNatMediaImage: 7440478660085e8d126f117b53de6297d05688fc
@@ -93,6 +103,6 @@ SPEC CHECKSUMS:
   WeexPluginLoader: 85c1304f8ba29864e58531614a0acfeceef1b85c
   WeexSDK: 173541f2d0042664168b305952398145c0c6039c
 
-PODFILE CHECKSUM: 0dd5cf687b7fded112fcf96a8fb75f5db6f83998
+PODFILE CHECKSUM: ff702517883bc408b0cdbc22895d99c6be20c7f9
 
 COCOAPODS: 1.5.3

@@ -25,6 +25,16 @@ const modules = [
       path: 'views/media/video.js'
     }]
   },
+  {
+    name: 'Camera',
+    functions: [{
+      name: 'captureImage',
+      path: 'views/camera/captureImage.js'
+    }, {
+      name: 'captureVideo',
+      path: 'views/camera/captureVideo.js'
+    }]
+  },
 ]
 
 export default modules

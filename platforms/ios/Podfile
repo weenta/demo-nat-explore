@@ -3,6 +3,7 @@ platform :ios, '8.0'
 #inhibit_all_warnings!
 
 def common
+	pod 'WeexNatCamera', '1.0.0'
 	pod 'WeexNatMediaVideo', '1.0.0'
 	pod 'WeexNatMediaAudio', '1.0.0'
 	pod 'WeexNatMediaImage', '1.0.1'

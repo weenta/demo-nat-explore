@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 74);
+/******/ 	return __webpack_require__(__webpack_require__.s = 81);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -3297,13 +3297,20 @@ module.exports = wechat;
 /* 71 */,
 /* 72 */,
 /* 73 */,
-/* 74 */
+/* 74 */,
+/* 75 */,
+/* 76 */,
+/* 77 */,
+/* 78 */,
+/* 79 */,
+/* 80 */,
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _image = __webpack_require__(75);
+var _image = __webpack_require__(82);
 
 var _image2 = _interopRequireDefault(_image);
 
@@ -3313,21 +3320,21 @@ _image2.default.el = '#root';
 new Vue(_image2.default);
 
 /***/ }),
-/* 75 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(76)
+__vue_styles__.push(__webpack_require__(83)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(77)
+__vue_exports__ = __webpack_require__(84)
 
 /* template */
-var __vue_template__ = __webpack_require__(78)
+var __vue_template__ = __webpack_require__(85)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3357,7 +3364,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 76 */
+/* 83 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -3365,6 +3372,21 @@ module.exports = {
     "borderBottomWidth": "1",
     "borderBottomStyle": "solid",
     "borderBottomColor": "#dddddd"
+  },
+  "button": {
+    "backgroundImage": "linear-gradient(to bottom, #3D83FB, #3370FF)",
+    "height": "84",
+    "paddingLeft": "64",
+    "paddingRight": "64",
+    "borderRadius": "42",
+    "borderWidth": 0,
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  "button-txt": {
+    "fontSize": "32",
+    "fontWeight": "600",
+    "color": "#ffffff"
   },
   "content": {
     "paddingLeft": "48",
@@ -3403,7 +3425,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 77 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3544,7 +3566,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 78 */
+/* 85 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4ACC3E48D82D62486CE9C39AFED6F37"
+               BlueprintIdentifier = "B4DEDE50690F8EAC06EE0A1D03EBB90B"
                BlueprintName = "WeexNatMediaAudio"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libWeexNatMediaAudio.a">

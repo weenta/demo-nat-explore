@@ -58,7 +58,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		EjFC1AJMBvtbXY6H4HRxL6jCA/4=
+		w9qdz/RCcg70sKnzO3YKL/79eZI=
 		</data>
 		<key>ImageError.png</key>
 		<data>
@@ -262,11 +262,11 @@
 		</data>
 		<key>bundlejs/components/Module.js</key>
 		<data>
-		8RovZSwn5wSNymW1A93Er5lJQXQ=
+		/Tdf9SRWFVzXW6CdEe3KUm3iLC4=
 		</data>
 		<key>bundlejs/index.js</key>
 		<data>
-		xBq1evHj5TcUrDJw4aa1G/zGRa0=
+		AKe2V/ro6V54q6WL33U0/T32UKI=
 		</data>
 		<key>bundlejs/layout/navBar.js</key>
 		<data>
@@ -280,29 +280,37 @@
 		<data>
 		7OWtfg6gI9Dh3QcLl9x3nUYJj5Q=
 		</data>
+		<key>bundlejs/views/camera/captureImage.js</key>
+		<data>
+		o8sP5D/60XlEkRtINmWsBU/ZF2A=
+		</data>
+		<key>bundlejs/views/camera/captureVideo.js</key>
+		<data>
+		lCQEgvKGhOKifjb+/iimbmEmIRw=
+		</data>
 		<key>bundlejs/views/communication/call.js</key>
 		<data>
-		u/5c5Vu2EnLVUeDxlnApB5KcdnA=
+		zFOzBrcsUlYHVriQDQfORWI6sxA=
 		</data>
 		<key>bundlejs/views/communication/mail.js</key>
 		<data>
-		AF1rtQvgJaO7MAFhWFhNeeXFaaI=
+		oR5CnPkrUCFg+8/3XldkUqTyIcI=
 		</data>
 		<key>bundlejs/views/communication/sms.js</key>
 		<data>
-		FJ9wVFdqBT4qXgvMDazUauV7HD8=
+		aaU3ur+Qi4HTVTAwDXK101tDhs4=
 		</data>
 		<key>bundlejs/views/media/audio.js</key>
 		<data>
-		KNj6zujBZvU6YLFuWWWF5wT//Nk=
+		u9//92MXAS5llvKXxQIetRXsWoc=
 		</data>
 		<key>bundlejs/views/media/image.js</key>
 		<data>
-		EnKzAR2GoolzH8hYgwwqAPCo/WU=
+		MmrFO4Ju7aODbdem7L6cUAcnwuo=
 		</data>
 		<key>bundlejs/views/media/video.js</key>
 		<data>
-		0W0+CQiaGHmnCZd/qHRbHT7SG3A=
+		E+gfbMd0Cd0ebvv2dMv4qs7dYeM=
 		</data>
 		<key>config.xml</key>
 		<data>
@@ -478,11 +486,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EjFC1AJMBvtbXY6H4HRxL6jCA/4=
+			w9qdz/RCcg70sKnzO3YKL/79eZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			QAo8m6GRRwPVJwn2SmUOaeBxqiUpGyRZpnKE+AA9r1A=
+			maVj+j6JIjeI4jX9DLHPf4MVuH146SDPAYf6iAyfG6I=
 			</data>
 		</dict>
 		<key>ImageError.png</key>
@@ -970,22 +978,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8RovZSwn5wSNymW1A93Er5lJQXQ=
+			/Tdf9SRWFVzXW6CdEe3KUm3iLC4=
 			</data>
 			<key>hash2</key>
 			<data>
-			P7kYozux8d+NfrQEBAp9jG+sW/T1vjoQOCh4oeGu1Yo=
+			XCqUsoz4ldRYUWeeDH6GjzaSbL6XDvFIyVKNNToqWsk=
 			</data>
 		</dict>
 		<key>bundlejs/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xBq1evHj5TcUrDJw4aa1G/zGRa0=
+			AKe2V/ro6V54q6WL33U0/T32UKI=
 			</data>
 			<key>hash2</key>
 			<data>
-			frwc5KAHbY+soA9wQuDz8D/7uXHAxXJnJAS12k8QOIg=
+			ZOvGVkc3W+l54Lhpf8xRJeAnw6OmiNSeVtud9wia8fM=
 			</data>
 		</dict>
 		<key>bundlejs/layout/navBar.js</key>
@@ -1021,70 +1029,92 @@
 			6pegQu8+SmMH9/5CM/Tnuhs7itzYH7+78HSIeOsCLhY=
 			</data>
 		</dict>
+		<key>bundlejs/views/camera/captureImage.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o8sP5D/60XlEkRtINmWsBU/ZF2A=
+			</data>
+			<key>hash2</key>
+			<data>
+			CjfB2d76eu98Dz8MUDsqCacq9J2xS9WSddxt0VGxdOc=
+			</data>
+		</dict>
+		<key>bundlejs/views/camera/captureVideo.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lCQEgvKGhOKifjb+/iimbmEmIRw=
+			</data>
+			<key>hash2</key>
+			<data>
+			M3HZfzv9YSKHDybluthu8E4RbThwK10UeG6gjTVL1FQ=
+			</data>
+		</dict>
 		<key>bundlejs/views/communication/call.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u/5c5Vu2EnLVUeDxlnApB5KcdnA=
+			zFOzBrcsUlYHVriQDQfORWI6sxA=
 			</data>
 			<key>hash2</key>
 			<data>
-			2tcAieaYb3TNIp46+hpvOMlBupqKwmY3Z6KR4lSVwvs=
+			XM6KSywgSOSHyCnbT+cv1xkEamjoLNhklc2OVg4d+zU=
 			</data>
 		</dict>
 		<key>bundlejs/views/communication/mail.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AF1rtQvgJaO7MAFhWFhNeeXFaaI=
+			oR5CnPkrUCFg+8/3XldkUqTyIcI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eX+YBCSHCBJmC4O/RM17F/bEVakjM4m8E9d68KcStpQ=
+			QHFmalPeFnz52Vbl4mAl55CzcIhNm4oBZbB1pW3kius=
 			</data>
 		</dict>
 		<key>bundlejs/views/communication/sms.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FJ9wVFdqBT4qXgvMDazUauV7HD8=
+			aaU3ur+Qi4HTVTAwDXK101tDhs4=
 			</data>
 			<key>hash2</key>
 			<data>
-			L3Q2zP4UCYGJ02XCfS5voWHKQzNKwIy/lSm9+qEFQZk=
+			pr5M5ycs8HJY8Lr/TJielqaziNpow2+LavbgGCpXZ4g=
 			</data>
 		</dict>
 		<key>bundlejs/views/media/audio.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KNj6zujBZvU6YLFuWWWF5wT//Nk=
+			u9//92MXAS5llvKXxQIetRXsWoc=
 			</data>
 			<key>hash2</key>
 			<data>
-			pc/7pv1vxmgZGq5A3YZtoWuDw0+QXtAyKg3Uz9uoQ3w=
+			J3kKjvXdJsEJ/DOAmgeLuxePfZ0MJUb3JIptmiNV1rQ=
 			</data>
 		</dict>
 		<key>bundlejs/views/media/image.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EnKzAR2GoolzH8hYgwwqAPCo/WU=
+			MmrFO4Ju7aODbdem7L6cUAcnwuo=
 			</data>
 			<key>hash2</key>
 			<data>
-			yJUZRY2cxGZ3Zd1sdWHVOClgLguNp4qxX9eOkJnDuog=
+			MiyLhCfxNk3PujhHm+yAt/PBCO+3P7urh5Um+lxJr4Q=
 			</data>
 		</dict>
 		<key>bundlejs/views/media/video.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0W0+CQiaGHmnCZd/qHRbHT7SG3A=
+			E+gfbMd0Cd0ebvv2dMv4qs7dYeM=
 			</data>
 			<key>hash2</key>
 			<data>
-			NPxHdBTFuyQaP3PMOLGumrqqlqvXDBwj9zM7rfiyCbo=
+			k+UR6xaPzGk/DP8k6K4jsCXMFmTdDCsCl7ahQbKXXzU=
 			</data>
 		</dict>
 		<key>config.xml</key>

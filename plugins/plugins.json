@@ -24,6 +24,11 @@
       "type": "pod",
       "name": "WeexNatMediaVideo",
       "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatCamera",
+      "version": "1.0.0"
     }
   ],
   "web": [],
@@ -62,6 +67,13 @@
       "name": "weex-plugin-media-video",
       "version": "1.0.0-alpha",
       "dependency": "com.instapp.nat:weex-plugin-media-video:1.0.0-alpha"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-camera",
+      "version": "1.0.2",
+      "dependency": "com.instapp.nat:weex-plugin-camera:1.0.2"
     }
   ]
 }
