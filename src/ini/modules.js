@@ -35,6 +35,13 @@ const modules = [
       path: 'views/camera/captureVideo.js'
     }]
   },
+  {
+    name: 'Recorder',
+    functions: [{
+      name: 'Recorder',
+      path: 'views/recorder/recorder.js'
+    }]
+  },
 ]
 
 export default modules

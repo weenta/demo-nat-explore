@@ -682,6 +682,12 @@ var modules = [{
     name: 'captureVideo',
     path: 'views/camera/captureVideo.js'
   }]
+}, {
+  name: 'Recorder',
+  functions: [{
+    name: 'Recorder',
+    path: 'views/recorder/recorder.js'
+  }]
 }];
 
 exports.default = modules;

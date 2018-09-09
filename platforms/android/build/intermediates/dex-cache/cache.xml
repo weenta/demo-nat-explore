@@ -84,6 +84,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/recorder/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="46d24b6a5de0474f81611b1bd32c4450c05d398e">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-recorder-2.0.0_8f264a07c368b1f48be0201fb5f1035f29a3d72a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/weenta/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
         jumboMode="false"
         optimize="true"
@@ -144,6 +153,15 @@
         revision="26.0.0"
         sha1="0736461f37e0f709b02dc15cad2b4a4a37ee1c9e">
         <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-camera-1.0.2_02f799852c2fa66b77cfcc1a3da1bc3b065ae5b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.kailashdabhi/om-recorder/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cc612fa2610b0741f55190e7bc73034144873adb">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.kailashdabhi-om-recorder-1.1.0_0826863aacf1235b370121edb03989682ecc099b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -243,6 +261,15 @@
         revision="26.0.0"
         sha1="575d72d4a489260763ca62b2b54450fdec3bebd1">
         <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.10.0.5_b6a125397b269c68683c382f6b0c3f1fecafbe97.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/weex-plugin-recorder/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="bd8a0afdd8395aad4912a2f8c5001969841f750b">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-recorder-1.0.1_4a62ba4d0dbae5b04e21376f170fa6d09285ec10.jar" />
     </item>
     <item
         is-multidex="false"

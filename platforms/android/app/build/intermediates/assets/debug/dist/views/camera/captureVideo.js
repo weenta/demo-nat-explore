@@ -3457,6 +3457,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
 
 exports.default = {
   components: {
@@ -3515,7 +3520,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_vm._m(0), _c('text', {
     staticClass: ["code"]
-  }, [_vm._v("\n        Nat.camera.captureVideo({}, (err, ret) => {\n            console.log(ret.path)\n        })\n      ")])]), _c('div', {
+  }, [_vm._v("\n        Nat.camera.captureVideo({}, (err, ret) => {\n            if (err) {\n              Nat.toast('[error]' + JSON.stringify(err))\n              return\n            }\n            this.path = ret.path\n            Nat.toast(JSON.stringify(ret))\n        })\n      ")])]), _c('div', {
     staticClass: ["button", "preview"],
     on: {
       "click": _vm.preview

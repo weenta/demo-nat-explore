@@ -29,6 +29,11 @@
       "type": "pod",
       "name": "WeexNatCamera",
       "version": "1.0.0"
+    },
+    {
+      "type": "pod",
+      "name": "WeexNatRecorder",
+      "version": "1.0.0"
     }
   ],
   "web": [],
@@ -74,6 +79,13 @@
       "name": "weex-plugin-camera",
       "version": "1.0.2",
       "dependency": "com.instapp.nat:weex-plugin-camera:1.0.2"
+    },
+    {
+      "type": "maven",
+      "groupId": "com.instapp.nat",
+      "name": "weex-plugin-recorder",
+      "version": "1.0.1",
+      "dependency": "com.instapp.nat:weex-plugin-recorder:1.0.1"
     }
   ]
 }

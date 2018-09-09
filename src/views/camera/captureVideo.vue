@@ -11,7 +11,12 @@
         </div>
         <text class='code'>
           Nat.camera.captureVideo({}, (err, ret) => {
-              console.log(ret.path)
+              if (err) {
+                Nat.toast('[error]' + JSON.stringify(err))
+                return
+              }
+              this.path = ret.path
+              Nat.toast(JSON.stringify(ret))
           })
         </text>
       </div>
