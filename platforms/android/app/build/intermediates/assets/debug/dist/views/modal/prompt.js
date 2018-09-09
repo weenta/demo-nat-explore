@@ -62,18 +62,18 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 101);
+/******/ 	return __webpack_require__(__webpack_require__.s = 104);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 101:
+/***/ 104:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _prompt = __webpack_require__(102);
+var _prompt = __webpack_require__(105);
 
 var _prompt2 = _interopRequireDefault(_prompt);
 
@@ -84,7 +84,7 @@ new Vue(_prompt2.default);
 
 /***/ }),
 
-/***/ 102:
+/***/ 105:
 /***/ (function(module, exports) {
 
 var __vue_exports__, __vue_options__
