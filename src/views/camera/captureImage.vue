@@ -10,7 +10,7 @@
           <text class='title'>Capture image</text>
         </div>
         <text class='code'>
-          // 需真机测试
+          // ios需真机测试
 
           Nat.camera.captureImage({}, (err, ret) => {
               console.log(ret.path)

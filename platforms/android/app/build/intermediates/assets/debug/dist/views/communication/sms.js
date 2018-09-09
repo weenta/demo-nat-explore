@@ -62,7 +62,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 64);
+/******/ 	return __webpack_require__(__webpack_require__.s = 74);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -3287,13 +3287,23 @@ module.exports = wechat;
 /* 61 */,
 /* 62 */,
 /* 63 */,
-/* 64 */
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
+/* 69 */,
+/* 70 */,
+/* 71 */,
+/* 72 */,
+/* 73 */,
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _sms = __webpack_require__(65);
+var _sms = __webpack_require__(75);
 
 var _sms2 = _interopRequireDefault(_sms);
 
@@ -3303,21 +3313,21 @@ _sms2.default.el = '#root';
 new Vue(_sms2.default);
 
 /***/ }),
-/* 65 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(66)
+__vue_styles__.push(__webpack_require__(76)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(67)
+__vue_exports__ = __webpack_require__(77)
 
 /* template */
-var __vue_template__ = __webpack_require__(68)
+var __vue_template__ = __webpack_require__(78)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3347,7 +3357,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 66 */
+/* 76 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -3355,6 +3365,21 @@ module.exports = {
     "borderBottomWidth": "1",
     "borderBottomStyle": "solid",
     "borderBottomColor": "#dddddd"
+  },
+  "button": {
+    "backgroundImage": "linear-gradient(to bottom, #3D83FB, #3370FF)",
+    "height": "84",
+    "paddingLeft": "64",
+    "paddingRight": "64",
+    "borderRadius": "42",
+    "borderWidth": 0,
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  "button-txt": {
+    "fontSize": "32",
+    "fontWeight": "600",
+    "color": "#ffffff"
   },
   "content": {
     "paddingLeft": "48",
@@ -3393,7 +3418,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 67 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3488,7 +3513,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 68 */
+/* 78 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

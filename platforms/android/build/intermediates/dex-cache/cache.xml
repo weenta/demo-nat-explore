@@ -120,12 +120,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/camera/2.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b3eeaf2fd05241287aa5234bbb33dd3d1a88da9c">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-camera-2.0.0_66a7d5c1fd1ff64f2cd77722c9f687a49ad401a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/weenta/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.0"
         sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
         <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_f5c22f8782acb93fd7d2ba06c1cde00842a08f00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/weex-plugin-camera/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="0736461f37e0f709b02dc15cad2b4a4a37ee1c9e">
+        <dex dex="/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/pre-dexed/debug/com.instapp.nat-weex-plugin-camera-1.0.2_02f799852c2fa66b77cfcc1a3da1bc3b065ae5b5.jar" />
     </item>
     <item
         is-multidex="false"

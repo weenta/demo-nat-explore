@@ -330,6 +330,21 @@ module.exports = {
     "borderBottomStyle": "solid",
     "borderBottomColor": "#dddddd"
   },
+  "button": {
+    "backgroundImage": "linear-gradient(to bottom, #3D83FB, #3370FF)",
+    "height": "84",
+    "paddingLeft": "64",
+    "paddingRight": "64",
+    "borderRadius": "42",
+    "borderWidth": 0,
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  "button-txt": {
+    "fontSize": "32",
+    "fontWeight": "600",
+    "color": "#ffffff"
+  },
   "module": {
     "marginLeft": "48",
     "marginRight": "48",
@@ -518,6 +533,21 @@ module.exports = {
     "borderBottomStyle": "solid",
     "borderBottomColor": "#dddddd"
   },
+  "button": {
+    "backgroundImage": "linear-gradient(to bottom, #3D83FB, #3370FF)",
+    "height": "84",
+    "paddingLeft": "64",
+    "paddingRight": "64",
+    "borderRadius": "42",
+    "borderWidth": 0,
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  "button-txt": {
+    "fontSize": "32",
+    "fontWeight": "600",
+    "color": "#ffffff"
+  },
   "app-logo": {
     "width": "82",
     "height": "82",
@@ -642,6 +672,15 @@ var modules = [{
   }, {
     name: 'Video',
     path: 'views/media/video.js'
+  }]
+}, {
+  name: 'Camera',
+  functions: [{
+    name: 'captureImage',
+    path: 'views/camera/captureImage.js'
+  }, {
+    name: 'captureVideo',
+    path: 'views/camera/captureVideo.js'
   }]
 }];
 
