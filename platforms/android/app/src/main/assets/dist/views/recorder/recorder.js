@@ -62,11 +62,53 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 108);
+/******/ 	return __webpack_require__(__webpack_require__.s = 111);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+var isNative = (typeof window === 'undefined' ? 'undefined' : _typeof(window)) !== 'object';
+
+var isFn = function isFn(fn) {
+	return typeof fn === 'function';
+};
+
+var isPhone = function isPhone(str) {
+	if (typeof str === 'number') {
+		str = str.toString();
+	} else if (typeof str !== 'string') {
+		return false;
+	}
+
+	return (/^\+?[\d\-\#\*\.\(\)]+$/.test(str)
+	);
+};
+
+var isEmail = function isEmail(str) {
+	if (typeof str !== 'string') {
+		return false;
+	}
+
+	return (/^(\w)+([\.\-\_]\w+)*@(\w)+(([\.\-\_]\w+)+)$/.test(str)
+	);
+};
+
+module.exports = {
+	isNative: isNative,
+	isFn: isFn,
+	isPhone: isPhone,
+	isEmail: isEmail
+};
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -110,48 +152,6 @@ var env = {
 };
 
 exports.default = env;
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var isNative = (typeof window === 'undefined' ? 'undefined' : _typeof(window)) !== 'object';
-
-var isFn = function isFn(fn) {
-	return typeof fn === 'function';
-};
-
-var isPhone = function isPhone(str) {
-	if (typeof str === 'number') {
-		str = str.toString();
-	} else if (typeof str !== 'string') {
-		return false;
-	}
-
-	return (/^\+?[\d\-\#\*\.\(\)]+$/.test(str)
-	);
-};
-
-var isEmail = function isEmail(str) {
-	if (typeof str !== 'string') {
-		return false;
-	}
-
-	return (/^(\w)+([\.\-\_]\w+)*@(\w)+(([\.\-\_]\w+)+)$/.test(str)
-	);
-};
-
-module.exports = {
-	isNative: isNative,
-	isFn: isFn,
-	isPhone: isPhone,
-	isEmail: isEmail
-};
 
 /***/ }),
 /* 2 */
@@ -225,7 +225,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _env = __webpack_require__(0);
+var _env = __webpack_require__(1);
 
 var _env2 = _interopRequireDefault(_env);
 
@@ -371,7 +371,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _env = __webpack_require__(0);
+var _env = __webpack_require__(1);
 
 var _env2 = _interopRequireDefault(_env);
 
@@ -712,7 +712,7 @@ module.exports = {
 "use strict";
 
 
-var _utils = __webpack_require__(1);
+var _utils = __webpack_require__(0);
 
 var _utils2 = _interopRequireDefault(_utils);
 
@@ -1326,7 +1326,7 @@ module.exports = {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _utils = __webpack_require__(1);
+var _utils = __webpack_require__(0);
 
 var modal = void 0;
 
@@ -1670,7 +1670,7 @@ module.exports = {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-var _utils = __webpack_require__(1);
+var _utils = __webpack_require__(0);
 
 var stream = void 0;
 
@@ -3331,13 +3331,16 @@ module.exports = wechat;
 /* 105 */,
 /* 106 */,
 /* 107 */,
-/* 108 */
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _recorder = __webpack_require__(109);
+var _recorder = __webpack_require__(112);
 
 var _recorder2 = _interopRequireDefault(_recorder);
 
@@ -3347,21 +3350,21 @@ _recorder2.default.el = '#root';
 new Vue(_recorder2.default);
 
 /***/ }),
-/* 109 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(110)
+__vue_styles__.push(__webpack_require__(113)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(111)
+__vue_exports__ = __webpack_require__(114)
 
 /* template */
-var __vue_template__ = __webpack_require__(112)
+var __vue_template__ = __webpack_require__(115)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -3391,7 +3394,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 110 */
+/* 113 */
 /***/ (function(module, exports) {
 
 module.exports = {
@@ -3452,7 +3455,7 @@ module.exports = {
 }
 
 /***/ }),
-/* 111 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3589,7 +3592,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 112 */
+/* 115 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

@@ -2,7 +2,7 @@
   <div>
     <status-bar/>
     <nav-bar/>
-    <scroller class='content'>
+    <scroller :show-scrollbar='false' class='content'>
       <title-bar :title='name'/>
       <div class='case' @click='confirm'>
         <div class='header'>
