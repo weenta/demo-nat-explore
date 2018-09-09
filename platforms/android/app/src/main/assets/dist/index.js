@@ -688,6 +688,21 @@ var modules = [{
     name: 'Recorder',
     path: 'views/recorder/recorder.js'
   }]
+}, {
+  name: 'Modal',
+  functions: [{
+    name: 'Alert',
+    path: 'views/modal/alert.js'
+  }, {
+    name: 'Confirm',
+    path: 'views/modal/confirm.js'
+  }, {
+    name: 'Prompt',
+    path: 'views/modal/prompt.js'
+  }, {
+    name: 'Toast',
+    path: 'views/modal/toast.js'
+  }]
 }];
 
 exports.default = modules;
