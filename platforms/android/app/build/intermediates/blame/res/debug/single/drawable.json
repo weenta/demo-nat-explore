@@ -20,12 +20,12 @@
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/drawable/indicator_enable.xml",
-        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/drawable/indicator_enable.xml"
-    },
-    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/drawable/indicator_enable.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.instapp.nat/media-image/2.0.1/res/drawable/indicator_enable.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",

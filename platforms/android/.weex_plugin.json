@@ -47,5 +47,19 @@
     "name": "weex-plugin-recorder",
     "version": "1.0.1",
     "dependency": "com.instapp.nat:weex-plugin-recorder:1.0.1"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-stream",
+    "version": "1.0.0-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-stream:1.0.0-alpha"
+  },
+  {
+    "type": "maven",
+    "groupId": "com.instapp.nat",
+    "name": "weex-plugin-transfer",
+    "version": "1.0.0-alpha",
+    "dependency": "com.instapp.nat:weex-plugin-transfer:1.0.0-alpha"
   }
 ]

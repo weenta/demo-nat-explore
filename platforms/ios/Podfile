@@ -3,6 +3,8 @@ platform :ios, '8.0'
 #inhibit_all_warnings!
 
 def common
+	pod 'WeexNatTransfer', '1.0.1'
+	pod 'WeexNatStream', '1.0.0'
 	pod 'WeexNatRecorder', '1.0.0'
 	pod 'WeexNatCamera', '1.0.0'
 	pod 'WeexNatMediaVideo', '1.0.0'

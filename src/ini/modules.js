@@ -58,6 +58,16 @@ const modules = [
       path: 'views/modal/toast.js'
     }]
   },
+  {
+    name: 'Stream',
+    functions: [{
+      name: 'Fetch',
+      path: 'views/stream/fetch.js'
+    }, {
+      name: 'Confirm',
+      path: 'views/stream/transfer.js'
+    }]
+  },
 ]
 
 export default modules

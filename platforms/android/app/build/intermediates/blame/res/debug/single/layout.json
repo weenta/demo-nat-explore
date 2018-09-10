@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/zxing_barcode_scanner.xml",
         "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/res/layout/zxing_barcode_scanner.xml"
+    },
+    {
+        "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/26.1.0/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/weenta/01data/03weex/demo_nat_explorer2/platforms/android/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",

@@ -5,4 +5,5 @@
 `Nat.recorder.pause`、`Nat.recorder.stop` 没有调用回调（android）(ios待测)
 
 ## todo
-modal/toast
+选择应用跳转
+WXNavigatorModule 修改

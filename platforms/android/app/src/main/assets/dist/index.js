@@ -703,6 +703,15 @@ var modules = [{
     name: 'Toast',
     path: 'views/modal/toast.js'
   }]
+}, {
+  name: 'Stream',
+  functions: [{
+    name: 'Fetch',
+    path: 'views/stream/fetch.js'
+  }, {
+    name: 'Confirm',
+    path: 'views/stream/transfer.js'
+  }]
 }];
 
 exports.default = modules;
